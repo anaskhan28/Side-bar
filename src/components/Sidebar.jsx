@@ -1,6 +1,5 @@
 import useSWR from 'swr';
 import axios from 'axios';
-import {  SettingOutlined, AppstoreOutlined } from '@ant-design/icons';
 import { Menu } from 'antd';
 function getItem(label, key, icon, children, type) {
   return {
